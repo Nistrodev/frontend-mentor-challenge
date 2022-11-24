@@ -23,7 +23,7 @@ body {
 }
 
 .card-img {
-    content: url("../../images/image-product-desktop.jpg");
+    content: url("./images/image-product-desktop.jpg");
     width: auto;
     height: auto;
     border-radius: 10px 0 0 10px;
@@ -97,7 +97,7 @@ body {
         height: auto;
     }
     .card-img {
-        content: url('../../images/image-product-mobile.jpg');
+        content: url('./images/image-product-mobile.jpg');
         width: 350px;
         border-radius: 10px 10px 0 0;
     }
