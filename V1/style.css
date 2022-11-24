@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fraunces');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: auto;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.card-img {
+    content: url("../../images/image-product-desktop.jpg");
+    width: auto;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    
+}
+.card-infos {
+    margin-left: 20px;
+                                                
+}
+.card-marque {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #89888f;
+}
+.card-title {
+    margin-top: 25px;
+    width: 300px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', sans-serif;
+
+}
+.card-desc {
+    margin-top: 20px;
+    font-size: 1.2em;
+    width: 250px;
+    color: hsl(228, 12%, 48%);
+}
+.price {
+    display: flex;
+    margin-top: 10px;
+}
+.card-lowprice {
+    margin-top: 20px;
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif;
+}
+.card-price {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', sans-serif;
+    margin-left: 20px;
+}
+.card-buy {
+    background-color: hsl(158, 36%, 37%);
+    height: 50px;
+    width: 250px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Montserrat' 'sans-serif';
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.card-buy:hover {
+    background-color: hsl(150, 25%, 21%);
+}
+.img-buy {
+    margin-right: 10px;
+}
+@media (max-width: 375px) {
+    .card {
+        flex-direction: column;
+        height: auto;
+    }
+    .card-img {
+        content: url('../../images/image-product-mobile.jpg');
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+    .card-title {
+        margin-top: 15px;
+        font-size: 2em;
+    }
+    .card-desc {
+        margin-top: 15px;
+        width: 306px;
+        font-size: 1.15em;
+    }
+    .card-price {
+        font-size: 0.8em;
+    }
+    .card-lowprice {
+        font-size: 1.9em;
+    }
+    .card-buy {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+}
