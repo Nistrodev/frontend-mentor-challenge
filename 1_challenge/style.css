@@ -91,7 +91,7 @@ body {
 .img-buy {
     margin-right: 10px;
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
     .card {
         flex-direction: column;
         height: auto;
